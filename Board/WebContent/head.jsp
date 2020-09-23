@@ -8,8 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
     <title>DB 포트폴리오 </title>
   </head>
 <body>
@@ -27,7 +26,6 @@
       			<li class="nav-item">
         			<a class="nav-link" href="#">게시판</a>
       			</li>
-      
     		</ul>
     		<ul class="navbar-nav navbar-right">
     			<li class="nav-item dropdown float-right">
