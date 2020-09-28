@@ -1,18 +1,18 @@
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
-	pageEncoding="EUC-KR"%>
+	pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <body>
 	<jsp:include page="head.jsp" flush="false" />
 	<div class="container">
 		<div class="jumbotron" style="margin: 36px">
-			<h1 class="display-4">�Խ��� ������Ʈ!!</h1>
+			<h1 class="display-4">게시판 프로젝트!!</h1>
 			<p class="lead">
-				�� �� ����Ʈ�� ��Ʈ��Ʈ������ ���� JSP �Խ��� ����Ʈ�Դϴ�.</br> DB ������Ʈ �غ��ϸ鼭 ���ο� ���� ����� �Դϴ�!
-				������ ���ø����δ� ��Ʈ��Ʈ���� �̿��߽��ϴ�.
+				이 웹 사이트는 부트스트랩으로 만든 JSP 게시판 사이트입니다.</br> DB 프로젝트 준비하면서 공부용 으로 만든거 입니다!
+				디자인 템플릿으로는 부트스트랩을 이용했습니다.
 			</p>
 			<hr class="my-4">
-			<p>�α��� ȸ������ �Խ��� ����� �־�ý��ϴ�! �ʱ�� git hub�� �߽��ϴ�!</p>
+			<p>로그인 회원가입 게시판 기능을 넣어봤습니다! 필기는 git hub로 했습니다!</p>
 			<a class="btn btn-dark btn-lg"
 				href="https://github.com/Kimginam97/Board" role="button">Github</a>
 		</div>
