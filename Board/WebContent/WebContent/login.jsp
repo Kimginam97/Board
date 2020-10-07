@@ -7,15 +7,18 @@
 
 	<div class="container">
 		<div class="jumbotron" style="margin: 36px;">
-			<form method="post" action="loginPro.jsp">
+			<form>
 			<h3 style="text-align: center;">로그인</h3>
 				<div class="form-group">
-						<input type="text" class="form-control" placeholder="아이디" name="userID" maxlength="20">
-					</div>
-					<div class="form-group">
-						<input type="password" class="form-control" placeholder="비밀번호" name="userPassword" maxlength="20">
-					</div>
-					<button type="submit" class="btn btn-primary form-control">로그인</button>
+					<label for="exampleInputEmail1">아이디</label> <input type="email"
+						class="form-control" id="userId" aria-describedby="emailHelp">
+				</div>
+				<div class="form-group">
+					<label for="exampleInputPassword1">비밀번호</label> <input
+						type="password" class="form-control" id="userPassword">
+				</div>
+
+				<button type="submit" class="btn btn-primary">로그인</button>
 			</form>
 		</div>
 	</div>
