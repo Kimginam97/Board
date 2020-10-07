@@ -2,6 +2,38 @@
 
 ## join
 
+### userDAO 추가
+```
+//회원가입
+	public int join(User user)throws Exception {
+		Connection conn = null;
+        PreparedStatement pstmt = null;
+		ResultSet rs = null;
+		String sql="";
+		try {
+			conn=getConnection();
+			sql="INSERT INTO USERS VALUES (?, ?, ?, ?, ?)";
+			pstmt=conn.prepareStatement(sql);
+			pstmt.setString(1, user.getUserID());
+			pstmt.setString(2, user.getUserPassword());
+			pstmt.setString(3, user.getUserName());
+			pstmt.setString(4, user.getUserGender());
+			pstmt.setString(5, user.getUserEmail());
+			
+			//executeUpdate -int 타입의값을 반환하고 SELECT 구문을 제외한 다른 구문을 수행할 때 사용되는 함수 
+			return pstmt.executeUpdate();
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}finally {
+			if (rs != null) try { rs.close(); } catch(SQLException ex) {}
+            if (pstmt != null) try { pstmt.close(); } catch(SQLException ex) {}
+            if (conn != null) try { conn.close(); } catch(SQLException ex) {}
+		}
+		return -1;  //회원가입문제
+	}
+
+```
+
 ### join의 jsp 구성
 ```
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
