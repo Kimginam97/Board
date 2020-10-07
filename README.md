@@ -8,6 +8,9 @@
 * jsp
 * oracle
 
+## DB연결
+1. [DBConnection](https://github.com/Kimginam97/Board/blob/master/Summary/DBConnection.md)
+
 ## 목차
 
 1. [index.jsp (메인화면 연결)](https://github.com/Kimginam97/Board/blob/master/Summary/index.md)
