@@ -53,6 +53,7 @@ public class UserDAO {
 		return -1;  //회원가입문제
 	}
 	
+	//로그인
 	public int login(String userID, String userPassword) throws Exception  {
 		Connection conn = null;
         PreparedStatement pstmt = null;

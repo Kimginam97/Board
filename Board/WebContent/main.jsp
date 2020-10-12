@@ -4,6 +4,7 @@
 <html>
 <body>
 	<jsp:include page="head.jsp" flush="false" />
+	
 	<div class="container">
 		<div class="jumbotron" style="margin: 36px">
 			<h1 class="display-4">게시판 프로젝트!!</h1>

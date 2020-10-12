@@ -24,6 +24,7 @@
 			session.setAttribute("userID", user.getUserID());
 			PrintWriter script = response.getWriter();
 			script.println("<script>");
+			script.println("alert('로그인에 성공하였습니다!.');");
 			script.println("location.href='main.jsp'");
 			script.println("</script>");
 			script.close();
