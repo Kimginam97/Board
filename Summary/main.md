@@ -5,16 +5,17 @@
 ### main jsp 구성
 ```
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
-	pageEncoding="EUC-KR"%>
+	pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <body>
 	<jsp:include page="head.jsp" flush="false" />
+	
 	<div class="container">
 		<div class="jumbotron" style="margin: 36px">
 			<h1 class="display-4">게시판 프로젝트!!</h1>
 			<p class="lead">
-				이 웹 사이트는 부트스트랩으로 만든 JSP 게시판 사이트입니다.</br> DB 프로젝트 준비하면서 공부용 으로 만든거 입니다!
+				이 웹 사이트는 부트스트랩으로 만든 JSP 게시판 사이트입니다.</br> 웹서버 DB 프로젝트 준비하면서 공부용 으로 만든거 입니다!
 				디자인 템플릿으로는 부트스트랩을 이용했습니다.
 			</p>
 			<hr class="my-4">
