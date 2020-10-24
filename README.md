@@ -29,4 +29,4 @@
 2. [board.jsp (게시판 메인화면)](https://github.com/Kimginam97/Board/blob/master/Summary/board.md)
 3. [wirte.jsp,writeAction.jsp (게시판 글쓰기 기능)](https://github.com/Kimginam97/Board/blob/master/Summary/login.md)
 4. [update.jsp,updateAction.jsp (게시판 글수정 기능)](https://github.com/Kimginam97/Board/blob/master/Summary/update.md)
-5. [deleteAction.jsp, (게시판 글삭제 및 글목록 기능)](https://github.com/Kimginam97/Board/blob/master/Summary/view%2Cdelete.md)
+5. [deleteAction.jsp,view.jsp (게시판 글삭제 및 글목록 기능)](https://github.com/Kimginam97/Board/blob/master/Summary/view%2Cdelete.md)
