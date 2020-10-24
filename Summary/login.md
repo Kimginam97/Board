@@ -2,36 +2,6 @@
 
 ## login
 
-### userDAO 추가
-```
-//로그인
-	public int login(String userID, String userPassword) throws Exception  {
-		Connection conn = null;
-        PreparedStatement pstmt = null;
-		ResultSet rs = null;
-		String sql="";
-		try {
-			conn=getConnection();
-			sql="SELECT userPassword FROM USERS WHERE userID = ?";
-			pstmt=conn.prepareStatement(sql);
-			pstmt.setString(1, userID);
-			
-			//executeQuery - ResultSet 객체에 결과값을 담을 수 있습니다
-			rs = pstmt.executeQuery();
-			if(rs.next()) {
-				if(rs.getString(1).equals(userPassword))
-					return 1; //로그인성공
-				else
-					return 0; //비밀번호 실패
-			}
-			return -1; //존재하지않는 아이디
-		} catch (SQLException e) {
-			e.printStackTrace();
-		}
-		return -2; //데이터베이스 오류
-	}
-```
-
 ### login의 jsp 구성
 ```
 <%@ page language="java" contentType="text/html; charset=EUC-KR"
@@ -89,6 +59,7 @@
 			session.setAttribute("userID", user.getUserID());
 			PrintWriter script = response.getWriter();
 			script.println("<script>");
+			script.println("alert('로그인에 성공하였습니다!.');");
 			script.println("location.href='main.jsp'");
 			script.println("</script>");
 			script.close();
