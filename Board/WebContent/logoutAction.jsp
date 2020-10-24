@@ -12,6 +12,7 @@
 		session.invalidate();
 	%>
 	<script>
+		alert('로그아웃 했습니다');
 		location.href = 'main.jsp';
 	</script>
 </body>

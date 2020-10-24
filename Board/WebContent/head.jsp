@@ -25,7 +25,7 @@
 	%>
 
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-		<a class="navbar-brand" href="main.jsp">JSP 게시판 DB 프로젝트 </a>
+		<a class="navbar-brand" href="main.jsp">JSP 게시판 프로젝트 </a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse"
 			data-target="#navbarSupportedContent"
 			aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -37,7 +37,7 @@
 			<ul class="navbar-nav mr-auto">
 				<li class="nav-item"><a class="nav-link" href="main.jsp">메인</a>
 				</li>
-				<li class="nav-item"><a class="nav-link" href="#">게시판</a></li>
+				<li class="nav-item"><a class="nav-link" href="board.jsp">게시판</a></li>
 			</ul>
 
 			<%
