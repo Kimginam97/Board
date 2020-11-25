@@ -27,6 +27,6 @@
 ## 게시판 글쓰기,글수정,글보기,글삭제 부분
 1. [bbs.java,bbsDAO.java (게시판 데이터 관리 및 DB와 연결)](https://github.com/Kimginam97/Board/blob/master/Summary/bbs%2CbbsDAO.md)
 2. [board.jsp (게시판 메인화면)](https://github.com/Kimginam97/Board/blob/master/Summary/board.md)
-3. [wirte.jsp,writeAction.jsp (게시판 글쓰기 기능)](https://github.com/Kimginam97/Board/blob/master/Summary/login.md)
+3. [wirte.jsp,writeAction.jsp (게시판 글쓰기 기능)](https://github.com/Kimginam97/Board/blob/master/Summary/write.md)
 4. [update.jsp,updateAction.jsp (게시판 글수정 기능)](https://github.com/Kimginam97/Board/blob/master/Summary/update.md)
 5. [deleteAction.jsp,view.jsp (게시판 글삭제 및 글목록 기능)](https://github.com/Kimginam97/Board/blob/master/Summary/view%2Cdelete.md)
